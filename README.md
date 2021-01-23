@@ -86,4 +86,4 @@ Copyright 2009–2021 by Codility Limited. All Rights Reserved. Unauthorized cop
     }
 
     return cont3;
-}
+    }
