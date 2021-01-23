@@ -25,14 +25,12 @@ Copyright 2009–2021 by Codility Limited. All Rights Reserved. Unauthorized cop
 
 
 
-
-
-
-
-// you can write to stdout for debugging purposes, e.g.
-//console.log('this is a debug message');
-
-function solution(N) {
+   
+    
+    // you can write to stdout for debugging purposes, e.g.
+    //console.log('this is a debug message');
+    
+    function solution(N) {
     // write your code in JavaScript (Node.js 8.9.4)
     let aux = '';
     let cont = 0;
@@ -40,8 +38,8 @@ function solution(N) {
     let numBi = (N.toString(2));
     let auxArr = [];
     //console.log(numBi);
-
-    for(let i=0; i<numBi.length; i++){
+    
+     for(let i=0; i<numBi.length; i++){
         
         if(numBi.charAt(i) == '1' && cont != 1 && numBi.charAt(i+1) == '0'){
             aux += numBi.charAt(i);
